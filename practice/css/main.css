@@ -1,0 +1,16 @@
+html {
+  margin-top: 30vh;
+  background-color: #106;
+}
+html #heading {
+  color: #d0d6e2;
+}
+html #thisTable {
+  background-color: #106;
+  color: #d0d6e2;
+}
+html #thisTable th {
+  color: #d0d6e2;
+}
+
+/*# sourceMappingURL=main.css.map */
