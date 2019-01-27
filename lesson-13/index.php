@@ -8,9 +8,9 @@
             year INT(4));";
 
     if (mysqli_query($conn,$sql)) {
-        echo 'Table was successfully created you can now <a href="add.php">add<\a> data to the table.';
+        echo 'Table was successfully created you can now <a href="add.php">add</a> data to the table.';
     } else {
-        echo "Failed to create table:". mysqli_error($conn);
+        echo "Failed to create table: ". mysqli_error($conn);
     }
     
 ?>
