@@ -6,7 +6,7 @@
     if (!$conn) {
         die("the connection is unsuccessfull". mysqli_connect_errno());
     } else {
-        echo "Connection successful<br>";
+        // echo "Connection successful<br>";
     }
     
 ?>

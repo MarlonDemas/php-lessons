@@ -2,7 +2,7 @@
     include_once("connect.php");
 
     $sql = "INSERT INTO films(title, director, year) VALUES (
-            'Thor: Ragnarok',
+            'Thor Ragnarok',
             'Taika Waititi',
             2017);";
 
