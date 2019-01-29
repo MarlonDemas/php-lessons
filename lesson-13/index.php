@@ -2,9 +2,9 @@
     include_once("connect.php");
 
     $sql = "CREATE TABLE films (
-            id INT AUTO_INCREMENT KEY,
-            title VARCHAR(64),
-            director VARCHAR(64),
+            id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            title VARCHAR(64) NOT NULL,
+            director VARCHAR(64) NOT NULL,
             year INT(4));";
 
     if (mysqli_query($conn,$sql)) {

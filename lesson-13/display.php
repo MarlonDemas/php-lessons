@@ -54,6 +54,10 @@
             </tbody>
         </table>
 
+        <?php
+            mysqli_close($conn);
+        ?>
+
         <a href="index.php" class="button is-primary">Home</a>
     </body>
 </html>
